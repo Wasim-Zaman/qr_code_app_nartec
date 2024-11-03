@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qr_code_app/theme/app_theme.dart';
-import 'package:qr_code_app/view/screens/home_screen.dart';
+import 'package:qr_code_app/view/screens/unified_scanner_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const HomeScreen(),
+      home: const UnifiedScannerScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
